@@ -16,7 +16,7 @@ php artisan migrate
 
 You can create user using artisan:
 <pre>
-php artisan user:create <email> <password>
+php artisan user:create ``<email>`` ``<password>``
 </pre>
 
 
