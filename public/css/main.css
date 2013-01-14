@@ -1,0 +1,38 @@
+body {
+	position: relative;
+	padding-top: 40px;
+}
+
+.auth-login {
+	margin-top: 10px;
+}
+.auth-login .row-fluid .span4 {
+	float: none;
+	margin: 0 auto;
+}
+
+
+/**
+ * Helpers
+ */
+.alert {
+	text-align: center;
+}
+
+
+/* Tablet
+------------------------- */
+@media (max-width: 767px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 979px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+    padding-right: 0;
+  }	
+}
