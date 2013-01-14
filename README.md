@@ -14,6 +14,11 @@ php artisan migrate:install
 php artisan migrate
 </pre>
 
+You can create user using artisan:
+<pre>
+php artisan user:create <email> <password>
+</pre>
+
 
 # [Laravel](http://laravel.com) - A PHP Framework For Web Artisans
 
@@ -23,15 +28,3 @@ simple, expressive syntax. Development should be a creative experience that you
 enjoy, not something that is painful. Enjoy the fresh air.
 
 [Official Website & Documentation](http://laravel.com)
-
-## Feature Overview
-
-- Simple routing using Closures or controllers.
-- Views and templating.
-- Driver based session and cache handling.
-- Database abstraction with query builder.
-- Authentication.
-- Migrations.
-- PHPUnit Integration.
-- A lot more.
-
